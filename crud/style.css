@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom , rgb(255, 255, 255), rgb(144, 144, 144));
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 10vh;
+    font-family: 'Oxanium', sans-serif;
+
+}
+
+main{
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+.pokemon_data{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    font-size: 24px;
+}
+
+.pokemon_name{
+    color: black;
+
+}
+
+.pokemon_number{
+    color: rgb(130, 130, 130);
+}
+
+form{
+    background-color: aquamarine;
+    position: absolute;
+    width: 16%;
+    top: 59%;
+    left: 41.2%;
+    border-radius: 5px;
+
+}
+
+form>input{
+    width: 100%;
+    height: 5vh;
+    box-shadow: -3px 2px #888, -6px 5px rgb(37, 37, 37);
+    border-radius: 5px;
+    border: 2px solid #333;
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 600;
+    padding: 4%;
+}
+
+form>input:focus{
+
+    outline: none;
+}
+
+.buttons{
+    position: absolute;
+    width: 16%;
+    left: 41%;
+    top: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+    width: 47%;
+    height: 4vh;
+    background-color: #444;
+    border: solid 2px #000;
+    color: white;
+    box-shadow: -2px 3px 0 #222, -4px 5px 0 #000;
+    border-radius: 5px  ;
+    font-family: 'Oxanium', sans-serif;
+}
+
+button:active{
+    box-shadow: inset -4px 4px 0 #222;
+}
+
+.pokemon_img{
+    position: absolute;
+    top: 25%;
+    height: 18%;
+    left: 50%;
+    transform: translate(-55%, 20%);
+}
+
